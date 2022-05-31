@@ -1,0 +1,47 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Battambang', cursive;
+   font-size: 18px;
+}
+.header, 
+.content {
+   width: 920px;
+   margin: 0 auto;
+}
+.header { line-height: 0.8; }
+.lang-kh { font-family: 'Battambang', cursive; }
+.lang-en { font-family: 'Open Sans', sans-serif; font-size: 16px; }
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Moul', cursive;
+   font-weight: 500;
+}
+.width-25 { width: 25%; }
+.width-50 { width: 50%; }
+.width-75 { width: 75%; }
+.width-100 { width: 100%; }
+
+fieldset { 
+   border: 3px solid #f33; 
+}
+
+.check-radio {
+   cursor: pointer;
+}
+input {
+   text-align: center;
+}
+input[type=text], 
+input[type=number] {
+   height: 30px;
+   border: none;
+   border-bottom: 1px solid #777;
+   font-weight: 600;
+}
+.lang-kh input[type=text] { font-size: 16px; }
+.lang-en input[type=text] { font-size: 16px; }
+input:focus {
+   outline: none;
+   border-color: rgb(44, 99, 201);
+}

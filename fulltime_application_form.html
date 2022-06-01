@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@300;400;700;900&family=Moul&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <section class="body-control">
+      <div class="header">
+         <img src="img/American-Intercon-School-Logo.jpg" height="90" alt="">
+         <h3>ពាក្យសុំចុះឈ្មោះចូលរៀនសម្រាប់កម្មវិធីសិក្សាបេញមួយថ្ងៃ <br>
+            Application form for AIS Full Day <br>
+            <label>ឆ្នាំសិក្សា <input type="text" style="width: 120px;"></label> <br>
+            Academic Year
+         </h3>
+      </div>
+      <fieldset>
+         <div class="content-header">
+            <h3 class="color-red">ប្រវត្តិរូបសិស្ស <br> Personal Details</h3>
+            <div class="form-profile">4 x 6 <br> (រូបថត)</div>
+         </div>
+         <span>
+            <label>នាមត្រកូល : <input type="text" style="width: 180px;"></label>
+            <label>នាមខ្លួន : <input type="text" style="width: 150px;"></label>
+            <label>ឈ្មោះជាអក្សរឡាតាំង : <input type="text" class="input-latin" style="width: 215px;"></label>
+         </span> <br>
+         <span style="font-size: 16px;">
+            <label>Last Name : <input type="text" style="width: 160px;"></label>
+            <label>First Name : <input type="text" style="width: 150px;"></label>
+            <label>Latin Name : <input type="text" style="width: 240px;"></label>
+         </span> <br>
+         <span>
+            ថ្ងៃ-ខែ-ឆ្នាំកំណើត : 
+            <input type="number" min="0" style="width: 50px;"> / 
+            <input type="text" list="monthListKH" style="width: 80px;"> / 
+            <input type="number" min="0" style="width: 70px;">
+            អាយុ : <input type="number" min="0" style="width: 70px;"></label>
+            ភេទ : &nbsp;
+            <label class="check-item"><input type="checkbox" name="gender2"> ប្រុស</label>
+            <label class="check-item"><input type="checkbox" name="gender2"> ស្រី</label> &nbsp;&nbsp;
+            <label>អត្តលេខ : <input type="text" style="width: 105px;"></label>
+         </span> <br>
+         <span style="font-size: 16px;">
+            Date of Birth : 
+            <input type="number" min="0" style="width: 50px;"> / 
+            <input type="text" min="0" list="monthListEN" style="width: 80px;"> / 
+            <input type="number" min="0" style="width: 70px;">
+            Age : <input type="number" min="0" style="width: 40px;"></label>
+            Sex : 
+            <label class="check-item"><input type="checkbox" name="gender2">Male</label>
+            <label class="check-item"><input type="checkbox" name="gender2">Female</label> &nbsp;&nbsp;
+            <label>ID Number : <input type="text" style="width: 125px;"></label>
+         </span> <br>
+         <span>
+            ទីកន្លែងកំណើត : &nbsp;
+            <label>ឃុំ/សង្កាត់់ : <input type="text" style="width: 150px;"></label>
+            <label>ស្រុក/ខ័ណ្ឌ : <input type="text" style="width: 150px;"></label>
+            <label>ខេត្ត/រាជធានី : <input type="text" style="width: 160px;"></label>
+         </span> <br>
+         <span style="font-size: 16px;">
+            Place of Birth : 
+            <label>Commune/Sangkat : <input type="text" style="width: 90px;"></label>
+            <label>District/Khan : <input type="text" style="width: 105px;"></label>
+            <label>Province/Capital : <input type="text" style="width: 120px;"></label>
+         </span> <br>
+         <span>
+            <label>លេខលិខិតឆ្លងដែន : <input type="text" style="width: 200px;"></label>
+            <label>ជនជាតិ : <input type="text" style="width: 190px;"></label>
+            <label>សញ្ជាតិ : <input type="text" style="width: 200px;"></label>
+         </span> <br>
+         <span style="font-size: 16px;">
+            <label>Passport Number : <input type="text" style="width: 180px;"></label>
+            <label>Nationality : <input type="text" style="width: 160px;"></label>
+            <label>Citizenship : <input type="text" style="width: 166px;"></label>
+         </span> <br>
+         <span>
+            ទីលំនៅបច្ចុប្បន្ន: &nbsp;
+            <label>ផ្ទះ : <input type="text" style="width: 36px;"></label>
+            <label>ផ្លូវ : <input type="text" style="width: 40px;"></label>
+            <label>ឃុំ/សង្កាត់់ : <input type="text" style="width: 100px;"></label>
+            <label>ស្រុក/ខ័ណ្ឌ : <input type="text" style="width: 100px;"></label>
+            <label>ខេត្ត/រាជធានី : <input type="text" style="width: 110px;"></label>
+         </span> <br>
+         <span style="font-size: 16px;">
+            Home Address : 
+            <label>No. <input type="text" style="width: 40px;"></label>
+            <label>St. <input type="text" style="width: 40px;"></label>
+            <label>Commune : <input type="text" style="width: 90px;"></label>
+            <label>District : <input type="text" style="width: 95px;"></label>
+            <label>Province/Capital : <input type="text" style="width: 95px;"></label>
+         </span> <br>
+         <span>
+            <label>ទូរស័ព្ទផ្ទះ : <input type="text" style="width: 340px;"></label>
+            <label>សារអេឡិចត្រូនិក : <input type="text" style="width: 320px;"></label>
+         </span> <br>
+         <span style="font-size: 16px;">
+            <label>Telephone : <input type="text" style="width: 340px;"></label>
+            <label>Email : <input type="text" style="width: 370px;"></label>
+         </span> <br>
+         <span>
+            <label>សុំចូលរៀនថ្នាក់ : <input type="text" style="width: 195px;"></label>
+            នឹងចាប់ផ្តើមចូលរៀននៅ AIS
+            <label>ថ្ងៃទី : <input type="number" min="1" style="width: 60px;"></label>
+            <label>ខែ : <input list="monthListKH" type="text" style="width: 100px;"></label>
+            <label>ឆ្នាំ : <input type="number" style="width: 80px;"></label>
+         </span> <br>
+         <span style="font-size: 16px;">
+            Applying for Admission to Grade/Level : &nbsp;
+            Start Date at AIS : <span style="padding-left: 105px;">dd</span>
+            <span style="padding-left: 90px;">mm</span><span style="padding-left: 90px;">yyyy</span>
+         </span> <br>
+         <span>
+            វេនសិក្សាសម្រាប់ថ្នាក់ក្រោមមត្តេយ្យសិក្សាប៉ុណ្ណោះ/<span style="font-size: 16px;">Study Shift for Preschool Only</span> <br>
+            <span>វេនសិក្សា : &nbsp;
+               <label class="check-item"><input type="checkbox" name="class1">ព្រឹករហូត</label> &nbsp;
+               <label class="check-item"><input type="checkbox" name="class1">រសៀលរហូត</label> &nbsp;
+               <label class="check-item"><input type="checkbox" name="class1">មួយខែប្តូរម្តង</label>
+               _វេនសិក្សាសម្រាប់ខែដំបូង : &nbsp;
+               <label class="check-item"><input type="checkbox" name="class2">ព្រឹក</label> &nbsp;
+               <label class="check-item"><input type="checkbox" name="class2">រសៀល</label>
+            </span> <br>
+            <span style="font-size: 15px;">
+               Study Shift : Morning Only &nbsp; Afternoon Only &nbsp; Change every month _ First month &nbsp; Morning &nbsp; Afternoon
+            </span>
+         </span>
+         <span>
+            <table>
+               <tbody>
+                  <tr>
+                     <td>2. </td>
+                     <td>
+                        ឈ្មោះបងប្អូនបង្កើតរៀននៅ AIS : <br>
+                        <span style="font-size: 15px;">Names and Ages of Siblings Studying at AIS :</span> <br>
+                        <!-- Student 1 at AIS -->
+                        <span>
+                           <label>ឈ្មោះ : <input type="text" style="width: 150px;"></label>
+                           <label>អាយុ : <input type="number" min="1" style="width: 40px;"></label>
+                           <label>ថ្នាក់ : <input type="text" style="width: 60px;"></label>
+                        </span> <br>
+                        <span style="font-size: 16px;">
+                           <label>Name : <input type="text" style="width: 147px;"></label>
+                           <label>Age : <input type="number" min="1" style="width: 45px;"></label>
+                           <label>Grade : <input type="text" style="width: 45px;"></label>
+                        </span>
+                        <!-- Student 2 at AIS -->
+                        <span>
+                           <label>ឈ្មោះ : <input type="text" style="width: 150px;"></label>
+                           <label>អាយុ : <input type="number" min="1" style="width: 40px;"></label>
+                           <label>ថ្នាក់ : <input type="text" style="width: 60px;"></label>
+                        </span> <br>
+                        <span style="font-size: 16px;">
+                           <label>Name : <input type="text" style="width: 147px;"></label>
+                           <label>Age : <input type="number" min="1" style="width: 45px;"></label>
+                           <label>Grade : <input type="text" style="width: 45px;"></label>
+                        </span>
+                        <!-- Student 3 at AIS -->
+                        <span>
+                           <label>ឈ្មោះ : <input type="text" style="width: 150px;"></label>
+                           <label>អាយុ : <input type="number" min="1" style="width: 40px;"></label>
+                           <label>ថ្នាក់ : <input type="text" style="width: 60px;"></label>
+                        </span> <br>
+                        <span style="font-size: 16px;">
+                           <label>Name : <input type="text" style="width: 147px;"></label>
+                           <label>Age : <input type="number" min="1" style="width: 45px;"></label>
+                           <label>Grade : <input type="text" style="width: 45px;"></label>
+                        </span>
+                     </td>
+                     <td>
+                        <div style="width: 10px;"></div>
+                     </td>
+                     <td>
+                        ឈ្មោះបងប្អូនបង្កើតរៀននៅ Aii : <br>
+                        <span style="font-size: 15px;">Names and Ages of Siblings Studying at Aii :</span> <br>
+                        <!-- Student 1 at Aii -->
+                        <span>
+                           <label>ឈ្មោះ : <input type="text" style="width: 150px;"></label>
+                           <label>អាយុ : <input type="number" min="1" style="width: 40px;"></label>
+                           <label>ថ្នាក់ : <input type="text" style="width: 60px;"></label>
+                        </span> <br>
+                        <span style="font-size: 16px;">
+                           <label>Name : <input type="text" style="width: 147px;"></label>
+                           <label>Age : <input type="number" min="1" style="width: 45px;"></label>
+                           <label>Grade : <input type="text" style="width: 45px;"></label>
+                        </span>
+                        <!-- Student 2 at Aii -->
+                        <span>
+                           <label>ឈ្មោះ : <input type="text" style="width: 150px;"></label>
+                           <label>អាយុ : <input type="number" min="1" style="width: 40px;"></label>
+                           <label>ថ្នាក់ : <input type="text" style="width: 60px;"></label>
+                        </span> <br>
+                        <span style="font-size: 16px;">
+                           <label>Name : <input type="text" style="width: 147px;"></label>
+                           <label>Age : <input type="number" min="1" style="width: 45px;"></label>
+                           <label>Grade : <input type="text" style="width: 45px;"></label>
+                        </span>
+                        <!-- Student 3 at Aii -->
+                        <span>
+                           <label>ឈ្មោះ : <input type="text" style="width: 150px;"></label>
+                           <label>អាយុ : <input type="number" min="1" style="width: 40px;"></label>
+                           <label>ថ្នាក់ : <input type="text" style="width: 60px;"></label>
+                        </span> <br>
+                        <span style="font-size: 16px;">
+                           <label>Name : <input type="text" style="width: 147px;"></label>
+                           <label>Age : <input type="number" min="1" style="width: 45px;"></label>
+                           <label>Grade : <input type="text" style="width: 45px;"></label>
+                        </span>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </span>
+      </fieldset>
+      <div class="text-center">ទំព័រ 1 នៃ 8</div>
+   </section> <br>
+
+   <section class="body-control">
+      <fieldset>
+         <table style="width: 100%;">
+            <tr>
+               <td style="width: 260px; text-align: center;"><img src="img/ais-preschool-logo.png" height="100" alt=""></td>
+               <td class="text-center color-red">
+                  <h3 class="font-moul" style="line-height: 1;">ព័ត៌មានរបស់មាតាបិតា ឬអ្នកអាណាព្យាបាល</h3>
+                  <h4 style="line-height: 1;">Parents/Guardian Details</h4>
+               </td>
+            </tr>
+         </table>
+      </fieldset>
+   </section>
+
+
+
+   <datalist id="monthListKH">
+      <option value="មករា"></option>
+      <option value="កុម្ភៈ"></option>
+      <option value="មីនា"></option>
+      <option value="មេសា"></option>
+      <option value="ឧសភា"></option>
+      <option value="មិថុនា"></option>
+      <option value="កក្កដា"></option>
+      <option value="សីហា"></option>
+      <option value="កញ្ញា"></option>
+      <option value="តុលា"></option>
+      <option value="វិច្ឆិកា"></option>
+      <option value="ធ្នូ"></option>
+   </datalist>
+   <datalist id="monthListEN">
+      <option value="Jan"></option>
+      <option value="Feb"></option>
+      <option value="Mar"></option>
+      <option value="April"></option>
+      <option value="May"></option>
+      <option value="Jun"></option>
+      <option value="Jul"></option>
+      <option value="Aug"></option>
+      <option value="Sep"></option>
+      <option value="Oct"></option>
+      <option value="Nov"></option>
+      <option value="Dec"></option>
+   </datalist>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+   <script>
+      $('input[type="checkbox"]').on('change', function () {
+         $('input[name="' + this.name + '"]').not(this).prop('checked', false);
+      });
+   </script>
+</body>
+
+</html>
